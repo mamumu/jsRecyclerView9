@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/tv_content1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="60dp"
+        android:gravity="center"
+        android:text="小狗1" />
+
+    <TextView
+        android:id="@+id/tv_content2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:minWidth="30dp"
+        android:text="小猫1" />
+</RelativeLayout>
